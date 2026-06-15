@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ШІ для міст - Приклади</title>
+    <style>
+        /* Using the same styles as the Armenian page for consistency */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem 3rem;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .header {
+            display: flex;
+            flex-direction: column; /* Stack logo and title/switcher */
+            align-items: flex-start; /* Align items to the start */
+            gap: 1.5rem; /* Space between logo and the rest */
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .header-logo img {
+            max-height: 50px; /* Control logo size */
+            width: auto;
+        }
+        .header-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .header h1 {
+            color: #000; /* Black for "AI for Cities" part of logo */
+            font-size: 2em;
+            margin: 0;
+        }
+        .header .lang-switcher a {
+            text-decoration: none;
+            color: #2E4B34;
+            font-weight: bold;
+            padding: 0.5rem 1.2rem;
+            border: 2px solid #2E4B34;
+            border-radius: 20px;
+            font-size: 0.9em;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .header .lang-switcher a:hover {
+            background-color: #2E4B34;
+            color: #fff;
+        }
+        .role-section h2 {
+            color: #2E4B34;
+            border-bottom: 3px solid #BFD730;
+            padding-bottom: 0.5rem;
+            margin-top: 3.5rem;
+            font-size: 1.8em;
+        }
+        .case {
+            margin-top: 2rem;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+        .case:last-child { border-bottom: none; }
+        .case h3 {
+            font-size: 1.45em;
+            color: #111;
+            margin-top: 0;
+            margin-bottom: 1.2rem;
+        }
+        .case h4 {
+            font-size: 1.1em;
+            color: #2E4B34;
+            margin-top: 1.5rem;
+            margin-bottom: 0.4rem;
+            font-weight: 700;
+        }
+        .case p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            text-align: justify;
+            color: #495057;
+        }
+        .discussion-box {
+            background-color: #f1f3f5;
+            border-left: 5px solid #BFD730;
+            padding: 1.2rem 1.5rem;
+            margin-top: 1.5rem;
+            border-radius: 0 6px 6px 0;
+        }
+        .discussion-box h4 {
+            margin-top: 0;
+            color: #2E4B34;
+            font-size: 1.05em;
+        }
+        .discussion-box p {
+            margin-bottom: 0;
+            font-style: italic;
+        }
+        
+        @media (max-width: 768px) {
+            .container { margin: 1rem; padding: 1.5rem; }
+            .header-controls { flex-direction: column; align-items: flex-start; gap: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
